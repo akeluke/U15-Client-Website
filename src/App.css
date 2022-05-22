@@ -1,0 +1,131 @@
+
+
+.body {
+  background-color: #dbdbdb;
+  min-height: 55vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+}
+
+
+
+.body-img{
+  justify-content:start;
+}
+.body-text {
+  justify-content:center;
+}
+
+.links {
+  color: #61dafb;
+}
+
+.list {
+  background-color: burlywood;
+  display: block;
+}
+
+li {
+  list-style-type: none;
+  justify-content: left;
+  padding: 10px;
+}
+
+.container {
+  max-width: 130rem;
+  background-color: #dbdbdb;
+  margin: 0 auto;
+}
+ 
+.grid-2-cols {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 5rem;
+  padding-top: 8rem;
+  gap: 5.2rem;
+  justify-items: center;
+  align-items: center;
+}
+ 
+.text {
+  max-width: 45rem;
+}
+ 
+ .text-number {
+  color: #ccc;
+  font-size: 8.6rem;
+  font-weight: 600;
+  margin-bottom: 1.2rem;
+}
+ 
+.text-heading {
+  font-size: 2.4rem;
+  font-weight: 600;
+  margin-bottom: 3.4rem;
+}
+
+ 
+.image {
+  height: 21rem;
+  width: 28rem;
+  justify-self: center;
+  position: relative;
+}
+
+.img-01 {
+  border-radius: 5% 5% 5% 5%;
+}
+ 
+.img-02 {
+  border-radius: 5% 5% 5% 5%;
+  margin-right: 10rem;
+}
+
+.info-boxes {
+  display: flex;
+  margin: 10px;
+  text-align: center;
+ 
+  inline-size: 80%;
+}
+
+
+.info-boxes .left,
+.info-boxes .right{
+  flex: 1;
+  margin: 50px;
+  overflow-wrap: break-word;
+}
+
+
+.each-slide > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 450px;
+}
+
+.each-slide span {
+  padding: 20px;
+  font-size: 20px;
+  background: #efefef;
+  text-align: end;
+}
+
+.slide-container {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 52%;
+}
+
+.showcase {
+  background-color: #dbdbdb;
+  min-height: 90vh;
+  text-align: center;
+  align-items: center;
+  color: black;
+}
