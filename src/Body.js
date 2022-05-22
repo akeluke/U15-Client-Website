@@ -72,7 +72,7 @@ export default function Body(){
                 <div className="right">
                     <h2 className="text-heading">Where we are located</h2>
                     <p>
-                    We are located in the south of England, East Sussex in a town called Lewes. We are able to travel so no matter where you are, we can come to you for your needs.    
+                    We are located in the south of England, East Sussex in a town called Lewes. We currently only operate within Sussex.    
                     </p>
                 </div>
             </div>
