@@ -13,23 +13,23 @@ export default function Body(){
     const slideImages = [
         {
           url: Image1,
-          caption: 'Slide 1'
+          caption: 'Floor Design 1'
         },
         {
           url: Image2,
-          caption: 'Slide 2'
+          caption: 'Floor Design 2'
         },
         {
           url: Image3,
-          caption: 'Slide 3'
+          caption: 'Floor Design 3'
         },
         {
           url: Image4,
-          caption: 'Slide 4'
+          caption: 'Floor Design 4'
         },
         {
             url: Image5,
-            caption: 'Slide 5'
+            caption: 'Custom Stair Design 1'
         },
     ];
 
@@ -47,8 +47,8 @@ export default function Body(){
             from full supply and install to install only services are tailored to suit your needs, For more information or general enquiries, get in touch today.
             </div>
         </div>
-        <div className="image img-01" style={{ backgroundImage: `url(${Image1})` }}></div>
-        <div className="image img-02" style={{ backgroundImage: `url(${Image2})` }}></div>
+        <div className="image img-01" alt="Custom Floor Desgin 1" style={{ backgroundImage: `url(${Image1})` }}></div>
+        <div className="image img-02" alt="Custom Floor Desgin 2" style={{ backgroundImage: `url(${Image2})` }}></div>
         <div className="text">
         
         {/* Navigation */}
