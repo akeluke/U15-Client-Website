@@ -67,7 +67,7 @@ export default function Body(){
             <div className="info-boxes">
                 <div className="left">
                     <h2 className="text-heading">Contact Us</h2>
-                    <p>You are welcome to contact us anytime on this number: 000000. We can provide you a quote or any information you may need.                    </p>
+                    <p>You are welcome to contact us anytime at this email: test@flawlessfloors.com We can provide you a quote or any information you may need.                    </p>
                 </div>
                 <div className="right">
                     <h2 className="text-heading">Where we are located</h2>

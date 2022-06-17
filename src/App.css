@@ -1,5 +1,3 @@
-
-
 .body {
   background-color: #dbdbdb;
   min-height: 55vh;
@@ -8,8 +6,6 @@
   align-items: center;
   color: black;
 }
-
-
 
 .body-img{
   justify-content:start;
@@ -77,12 +73,13 @@ li {
     font-size: 1rem;
     overflow-wrap: break-word;
   }
-
+  /* try and resize image */
   .image{
-    height: 1rem;
+    max-height: 20rem;
   }
 }
- 
+
+
 .image {
   height: 21rem;
   width: 28rem;
@@ -106,9 +103,6 @@ li {
   font-weight: 600;
   margin-bottom: 3.4rem;
 }
-
- 
-
 
 .img-01 {
   border-radius: 5% 5% 5% 5%;
